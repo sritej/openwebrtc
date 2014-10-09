@@ -11,12 +11,8 @@ export DEBUG_CFLAGS
 
 openwebrtcdocdir = ${prefix}/share/doc/libopenwebrtc
 openwebrtcdoc_DATA = \
-    README \
     COPYING \
-    AUTHORS \
-    ChangeLog \
-    INSTALL \
-    NEWS
+    ChangeLog
 
 EXTRA_DIST = $(openwebrtcdoc_DATA)
 
